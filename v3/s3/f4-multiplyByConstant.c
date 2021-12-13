@@ -3,18 +3,21 @@
     NAL: napiši program, ki od uporabnika sprejme 1 število.
     Implementiraj funckijo "multiplyByConstant", ki ji podamo eno število, ta 
     pa nam število pomnoži z konstanto.
-    Večje število izpiši.
-    konstanta je 100.
+    Konstanta je 100.
 
     IZPIS: 
     Vpisi stevilo: 5
     Rezultat: 500
 */
+
 /*
     deklaracije funkcije
 */
 int multiplyByConstant(int number);
 
+/*
+    inicializacija globalnih konstant
+*/ 
 const int CONSTANT = 100;
 
 /*

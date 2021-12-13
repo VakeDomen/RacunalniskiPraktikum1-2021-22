@@ -14,18 +14,29 @@
     Kmh: 3.600000
 */
 
+/*
+    deklaracije funkcije
+*/
 double toMps(double num);
 double toKmh(double num);
 
+/*
+    inicializacija globalnih konstant
+*/ 
 const double COEFICIENT = 3.6;
 
+/*
+    inicializacija funkcij
+*/
 int main() {
-    printf("Izberi smer pretvorbe:\n1) kmh -> mps\n2) mps -> kmh\n");
-    // 
     int direction;
-    scanf("%i", &direction);
-
     double ammount;
+    
+    printf("Izberi smer pretvorbe:\n");
+    printf("1) kmh -> mps\n");
+    printf("2) mps -> kmh\n");
+    scanf("%i", &direction);
+    
     printf("Vpiši količino: ");
     scanf("%lf", &ammount);
 
@@ -34,7 +45,7 @@ int main() {
     } else if (direction == 2) {
         printf("Mps: %lf\n", toKmh(ammount));
     } else {
-        printf("Invalid choice!\n");
+        printf("Napacen vnos!\n");
     }
 }
 
