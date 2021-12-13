@@ -14,8 +14,6 @@ int main() {
         numbers[i] = rand() % 1000;   
     }
     printArray(numbers, ammountOfNumbers);
-
-
     sort(numbers, ammountOfNumbers);
     printArray(numbers, ammountOfNumbers);
 
