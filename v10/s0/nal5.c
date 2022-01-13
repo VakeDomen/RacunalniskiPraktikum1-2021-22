@@ -7,7 +7,15 @@
     IZPIS:
     Vpisi besedo za iskanje: the
     Beseda se nahaja na mestu: 50
-    
+
+    89211306
+    89211241
+    89211242
+    89211187
+    89201088
+    89211188
+    89211065
+    89211150
 */
 
 int strLength(char str[]);
